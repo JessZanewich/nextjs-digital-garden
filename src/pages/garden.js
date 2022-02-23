@@ -6,7 +6,8 @@ const Garden = () => {
       <SEO />
       <Header />
       <h1>Garden</h1>
-      <p>This is where we should put a list of our garden posts.</p>
+      <h2>This is where we should put a list of our garden posts.</h2>
+      <p>TEst this one here</p>
     </div>
   )
 }

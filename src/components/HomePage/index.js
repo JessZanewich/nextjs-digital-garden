@@ -11,10 +11,15 @@ export default function HomePage ({ allMdx }) {
       <Header />
       <S.Main>
         <S.H1>
-          NextJS + MDX
+          Jess von Euw
           <br />
-          Digital Garden Starter
         </S.H1>
+        <S.H2>
+          Let's talk about productivity, business, organization and everything in between
+        </S.H2>
+        <S.H2>
+          Let's talk about productivity, business, organization and everything in between
+        </S.H2>
 
         <S.FeatureList>
           <S.ListItem>
@@ -25,11 +30,6 @@ export default function HomePage ({ allMdx }) {
           </S.ListItem>
           <S.ListItem>Supports frontmatter (thanks to gray-matter).</S.ListItem>
         </S.FeatureList>
-
-        <S.GitHubButton href={githubUrl}>
-          <GitHub />
-          <span>View source on GitHub</span>
-        </S.GitHubButton>
 
         <S.H2>Featured posts</S.H2>
         <S.PostList>

@@ -1,22 +1,22 @@
 const typeTokens = {
-  fontFamily: 'Lato, sans-serif'
+  fontFamily: 'Montserrat, sans-serif'
 }
 
 export default {
   light: {
     ...typeTokens,
-    background: '#FBFBF9',
-    text10: '#1E1E1B',
-    text20: '#696966',
+    background: '#F7F9FB',
+    text10: '#31708E',
+    text20: '#687864',
     rule: 'rgba(0, 0, 0, 0.1)',
-    green10: '#79BB40',
+    green10: '#ef233c',
     highlightBackground: '#ABEF70'
   },
   dark: {
     ...typeTokens,
-    background: '#171716',
-    text10: '#FBFBF9',
-    text20: '#9C9C96',
+    background: '#1A1A1D',
+    text10: '#C3073F',
+    text20: '#8D8741',
     rule: 'rgba(255, 255, 255, 0.1)',
     green10: '#79BB40',
     highlightBackground: '#ABEF70'
